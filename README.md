@@ -1,35 +1,78 @@
-# SKY FORECAST (WEATHER APP)
+<div align="center">
+  <h1>🌤️ Sky Forecast</h1>
+  <p>A cross-platform, real-time weather application providing accurate daily and weekly forecasts based on your location.</p>
+</div>
 
-A real-time weather information providing Android application. It presents data like temperature, humidity, and wind speed, and uses Openmeteo and OpenWeatherMap APIs to offer accurate daily and weekly weather forecasts for the user's current location.
+<br/>
 
-## Features
-The application includes the following features:
+## 🎯 About the Project
 
-- Current weather conditions, including temperature, humidity, and wind speed.
-- Daily and weekly weather forecasts.
-- Data retrieval from Openmeteo and OpenWeatherMap APIs.
-- Automatic detection of the user's current location to display relevant weather information.
+**Sky Forecast** is a comprehensive weather application designed to deliver real-time meteorological data to users. Developed using **Flutter/Dart**, it offers a seamless cross-platform experience (Android, iOS, Web, Desktop). By leveraging geolocation and integrating multiple reliable weather APIs, the app instantly displays crucial data such as temperature, humidity, wind speed, and extended forecasts tailored specifically to your current location.
 
-## Installation
-To compile and run the application, follow these steps:
+## ✨ Key Features
 
-1. Install Android Studio from this website: [Android Studio](https://developer.android.com/studio)
-2. Install the Java Development Kit (JDK) from this site: [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html)
-3. Ensure the Android SDK is installed with necessary platforms and build tools.
-4. After setting up, clone the repository, open it in Android Studio, and follow standard procedures for building and running Android applications.
+- **Real-Time Weather Data:** Instant access to current temperature, humidity levels, and wind speed.
+- **Extended Forecasts:** Detailed daily and weekly weather predictions.
+- **Location Auto-Detection:** Automatically detects your current location via GPS to provide localized weather updates.
+- **Multi-API Integration:** Fetches highly accurate data by combining endpoints from [Open-Meteo](https://open-meteo.com/) and [OpenWeatherMap](https://openweathermap.org/).
+- **Cross-Platform:** Built with Flutter, supporting Android, iOS, Windows, macOS, Linux, and Web environments.
 
-## Usage
-To use the application:
+## 📂 Repository Structure
 
-1. Install it on your Android device.
-2. Grant location permissions to allow the app to detect your current location.
-3. The app will then display current weather conditions and forecasts for your location.
+The core files and directories in this repository are structured according to standard Flutter architecture:
 
-## Versions
-Currently, there is no released version available. The application can be used by compiling it from the source code.
+```text
+├── android/         # Native Android project files
+├── ios/             # Native iOS project files
+├── lib/             # Main Dart source code (UI, logic, API calls)
+├── linux/           # Native Linux project files
+├── macos/           # Native macOS project files
+├── web/             # Web compilation files
+├── windows/         # Native Windows project files
+├── assets/          # Icons, images, and other static assets
+├── pubspec.yaml     # Flutter dependencies and project configuration
+└── README.md        # Project documentation
+```
 
-## Used APIs
-The application relies on the following APIs:
+## 🛠️ Technologies Used
 
-[Openmeteo](https://open-meteo.com/) for weather data and location information.
-[OpenWeatherMap](https://openweathermap.org/) for additional weather details.
+- **Framework:** Flutter
+- **Programming Language:** Dart
+- **APIs:** - [Open-Meteo API](https://open-meteo.com/) (Weather & Geocoding)
+  - [OpenWeatherMap API](https://openweathermap.org/) (Supplementary Weather Data)
+
+## 🚀 Installation & Setup
+
+To compile and run the application from the source code, please follow these steps:
+
+### 1. **Install Prerequisites:**
+   - Install the [Flutter SDK](https://docs.flutter.dev/get-started/install).
+   - Install an IDE such as [Android Studio](https://developer.android.com/studio) or VS Code with the Flutter and Dart extensions.
+   - Install the [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html).
+
+### 2. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/BahadirKarsli/Sky-Forecast.git
+   cd Sky-Forecast
+   ```
+
+### 3. **Fetch Dependencies:**
+   ```bash
+   flutter pub get
+   ```
+
+### 4. **Run the Application:**
+   Connect your physical device or launch an emulator/simulator, then execute:
+   ```bash
+   flutter run
+   ```
+
+## 💻 Usage Instructions
+
+### 1. Launch the application on your target device.
+### 2. When prompted, **grant location permissions** so the app can pinpoint your current coordinates.
+### 3. The dashboard will automatically populate with real-time weather conditions and the upcoming forecast for your area.
+
+## 🤝 Contributing
+
+Contributions, bug reports, and feature requests are always welcome! Feel free to open an **Issue** or submit a **Pull Request** to help improve the project.
