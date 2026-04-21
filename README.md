@@ -39,7 +39,7 @@ The core files and directories in this repository are structured according to st
 - **Framework:** Flutter
 - **Programming Language:** Dart
 - **APIs:** - [Open-Meteo API](https://open-meteo.com/) (Weather & Geocoding)
-  - [OpenWeatherMap API](https://openweathermap.org/) (Supplementary Weather Data)
+- [OpenWeatherMap API](https://openweathermap.org/) (Supplementary Weather Data)
 
 ## 🚀 Installation & Setup
 
